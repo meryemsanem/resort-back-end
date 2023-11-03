@@ -49,4 +49,5 @@ end
 ### Rubocop
 gem 'rubocop', '>= 1.0', '< 2.0'
 
-
+### Add Devise
+gem 'devise', '~> 4.9'
