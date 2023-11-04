@@ -4,5 +4,5 @@ class UserSerializer
 
   attribute :created_date do |user|
     user && user.created_at.strftime('%d/%m/%Y')
-end
+  end
 end
