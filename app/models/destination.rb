@@ -1,5 +1,4 @@
 class Destination < ApplicationRecord
-  belongs_to :user
   has_many :reservations, dependent: :destroy
 
   validates :name, presence: true, length: { minimum: 3, maximum: 30 }
