@@ -7,11 +7,14 @@ Rails.application.routes.draw do
   controllers: {
     sessions: 'users/sessions',
     registrations: 'users/registrations'
-  }  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  }
 
-   namespace :api do
+  namespace :api do
     namespace :v1 do
-      resources :reservations
+      resources :users do
+        resources :reservations
+      end
+      resources :destinations
     end
   end
 end
