@@ -2,7 +2,7 @@ class Api::V1::ReservationsController < ApplicationController
   before_action :set_reservation, only: %i[show update destroy]
 
   def index
-    @reservations = Reservation.all
+    @reservations = Reservation.where(user_id: params[:user_id])
     render json: @reservations
   end
 
