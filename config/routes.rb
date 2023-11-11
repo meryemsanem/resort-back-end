@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
   mount Rswag::Ui::Engine => '/api-docs'
   mount Rswag::Api::Engine => '/api-docs'
@@ -14,6 +15,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users do
+        get 'users/current_user', to: 'users#current_user'
         resources :reservations
       end
       resources :destinations
