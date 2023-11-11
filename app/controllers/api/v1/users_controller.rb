@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: %i[show update destroy]
   before_action :set_user, only: %i[show update destroy]
 
   # GET /users
@@ -42,7 +42,7 @@ class Api::V1::UsersController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_user
-    @user = User.find(params[:id])
+    @user = current_user
   end
 
   # Only allow a list of trusted parameters through.
