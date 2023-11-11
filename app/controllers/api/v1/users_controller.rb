@@ -1,10 +1,10 @@
 class Api::V1::UsersController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_user, only: %i[show update destroy]
 
   # GET /users
   def index
     @users = User.all
-
     render json: @users
   end
 

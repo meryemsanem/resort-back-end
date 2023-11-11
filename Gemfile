@@ -21,6 +21,8 @@ gem 'puma', '~> 5.0'
 gem 'devise'
 gem 'devise-jwt'
 gem 'fast_jsonapi'
+gem 'rspec-rails'
+gem 'rswag'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
