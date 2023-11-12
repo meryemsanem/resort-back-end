@@ -6,4 +6,6 @@ class Reservation < ApplicationRecord
   validates :end_date, presence: true
   validates :user, presence: true
   validates :destination, presence: true
+
+  accepts_nested_attributes_for :destination
 end
