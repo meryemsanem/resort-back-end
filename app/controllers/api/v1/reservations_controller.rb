@@ -1,7 +1,7 @@
 class Api::V1::ReservationsController < ApplicationController
   before_action :set_reservation, only: %i[show update destroy]
 
- def index
+  def index
   @reservations = Reservation.all.includes(:destination)
 
   data = @reservations.map do |reservation|
@@ -59,7 +59,13 @@ end
     @reservation = Reservation.find(params[:id])
   end
 
-  def reservation_params
-    params.require(:reservation).permit(:user_id, :destination_id, :start_date, :end_date)
-  end
+ def reservation_params
+  params.require(:reservation).permit(
+    :user_id,
+    :destination_id,
+    :start_date,
+    :end_date,
+    destination_attributes: [:name, :city_name]
+  )
+end
 end
