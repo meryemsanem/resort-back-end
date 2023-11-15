@@ -118,6 +118,7 @@ it will install the required gemfile for running the project
 ### Usage
 
 ```bash
+  rails credentials:edit
   rails db:create
   rails db:migrate
   rails db:import_data
