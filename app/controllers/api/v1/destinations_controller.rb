@@ -37,7 +37,11 @@ class Api::V1::DestinationsController < ApplicationController
 
   # DELETE /destinations/1
   def destroy
-    @destination.destroy
+    if @destination.destroy
+      head :no_content
+    else
+      render json: @destination.errors, status: :unprocessable_entity
+    end
   end
 
   private
