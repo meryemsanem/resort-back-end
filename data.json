@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Bali Bliss Heaven",
+    "city_name": "Bali",
+    "fee": 200,
+    "description": "Bask in Bali's beauty at Bali Bliss Heaven...",
+    "image_url": "https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/03/04111335/amandari-indonesia-suite-exterior-and-pool_original_11588-2-1401x900.jpg"
+  },
+  {
+    "name": "Maldives Serenity Cove",
+    "city_name": "Maldives",
+    "fee": 150,
+    "description": "Discover serenity in Maldives with crystal-clear waters and pristine beaches...",
+    "image_url": "https://www.spendlifetraveling.com/wp-content/uploads/2017/09/maldives_best_resort_kuramathi.jpg"
+  },
+  {
+    "name": "Tropical Tranquility Resort",
+    "city_name": "Phuket",
+    "fee": 120,
+    "description": "Luxury escape in Phuket. Breathtaking views, unmatched sophistication...",
+    "image_url": "https://hi-cdn.t-rp.co.uk/images/hotels/1870726/13?width=870&height=480&crop=false"
+  }
+]

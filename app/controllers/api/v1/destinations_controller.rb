@@ -18,7 +18,6 @@ class Api::V1::DestinationsController < ApplicationController
   # POST /destinations
   def create
     @destination = Destination.new(destination_params)
-    @destination.user_id = @current_user.id
 
     if @destination.save
       render json: @destination, status: :created
