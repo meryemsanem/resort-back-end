@@ -141,7 +141,7 @@ it will install the required gemfile for running the project
 
 👤 **Yusuf Sholotan**
 
-- GitHub: [Yusuf Sholotan](https://github.com/yin-ka)
+- GitHub: [yin-ka](https://github.com/yin-ka)
 - LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
 
 👤 **Clarence Atim**
