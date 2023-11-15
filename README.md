@@ -48,7 +48,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- 🔐 **Splash Screen**: Begin your resort journey with confidence! The splash screen features secure authentication. Start your exploring with a captivating splash screen that invites you to log in or sign up.
+- 🔐 **Splash Screen**: Begin your resort journey with confidence! The splash screen features secure authentication. Start your exploring with 
+                         a captivating splash screen that invites you to log in or sign up.
 - 🌏 **Explore Resorts**: Discover a curated selection of resorts, each offering unique experiences and amenities.
 - ✔️ **Reserve Your Spot**: Reserve your desired fav resort.
 - 📅 **Manage Reservations**: Effortlessly manage your resort bookings, including viewing details.
@@ -58,7 +59,7 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Soon.. [Live Demo Link]()
+- Soon.. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +120,7 @@ it will install the required gemfile for running the project
 ```bash
   rails db:create
   rails db:migrate
-  rails db:seed
+  rails db:import_data
   rails server
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
