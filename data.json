@@ -26,5 +26,12 @@
     "fee": 120,
     "description": "Luxury escape in Phuket. Breathtaking views, unmatched sophistication...",
     "image_url": "https://hi-cdn.t-rp.co.uk/images/hotels/1870726/13?width=870&height=480&crop=false"
+  },
+  {
+    "name": "AzureSands Resort & Spa",
+    "city_name": "Florida",
+    "fee": 230,
+    "description": "Embrace paradise at AzureSands Resort & Spa, where azure waters meet golden sands...",
+    "image_url": "https://media.cntraveler.com/photos/5e5e9a3617b1dc0008f2fbfe/16:9/w_1920%2Cc_limit/EauPalmBeachResort&Spa-PalmBeachFlorida-2020-5.jpg"
   }
 ]
